@@ -1,0 +1,7 @@
+cloudwatch-notes.txt
+CloudWatch Metrics Enabled:
+- Lambda Invocations
+- Lambda Errors
+- API Gateway Latency
+- DynamoDB Read/Write Capacity
+- Billing Alerts
