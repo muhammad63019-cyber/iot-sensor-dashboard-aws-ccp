@@ -1,0 +1,28 @@
+architecture-diagram.png
+# IoT Sensor Data Dashboard using AWS
+
+## Project Overview
+This project is developed as a Complex Computing Problem (CCP) for BE Software Engineering.
+It demonstrates a cloud-native IoT application using AWS managed services.
+
+## AWS Services Used
+- AWS IoT Core
+- AWS Lambda
+- Amazon DynamoDB
+- Amazon S3 & CloudFront
+- AWS Cognito
+- AWS CloudWatch
+- AWS IAM
+
+## Repository Structure
+infra/        - Infrastructure as Code (CloudFormation)
+backend/      - AWS Lambda backend
+frontend/     - Web dashboard
+monitoring/   - CloudWatch monitoring details
+docs/         - Architecture diagrams and documentation
+
+## Deployment
+The system is deployed using AWS serverless services and follows cloud-native best practices.
+
+## Author
+BE Software Engineering Student
