@@ -1,0 +1,17 @@
+Resources:
+  SensorDataTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: SensorData
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: DeviceID
+          AttributeType: S
+        - AttributeName: Timestamp
+          AttributeType: N
+      KeySchema:
+        - AttributeName: DeviceID
+          KeyType: HASH
+        - AttributeName: Timestamp
+          KeyType: RANGE
+cloudformation-template.yaml
